@@ -9,11 +9,15 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
+    @IBOutlet weak var defaultPicker: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func tip(_ sender: Any) {
+        
     }
     
 

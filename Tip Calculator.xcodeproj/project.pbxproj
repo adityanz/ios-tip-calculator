@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		483F292924D4E4750083D5D7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F292824D4E4750083D5D7 /* SettingsViewController.swift */; };
+		48F65DF824D50FBD008E65B0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F65DF724D50FBD008E65B0 /* Launch Screen.storyboard */; };
 		48F6F06F24D4C23F000B96DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6F06E24D4C23F000B96DD /* AppDelegate.swift */; };
 		48F6F07124D4C23F000B96DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6F07024D4C23F000B96DD /* SceneDelegate.swift */; };
 		48F6F07324D4C23F000B96DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6F07224D4C23F000B96DD /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		483F292824D4E4750083D5D7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		48F65DF724D50FBD008E65B0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		48F6F06B24D4C23F000B96DD /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F6F06E24D4C23F000B96DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F6F07024D4C23F000B96DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +104,11 @@
 		48F6F06D24D4C23F000B96DD /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				48F65DF724D50FBD008E65B0 /* Launch Screen.storyboard */,
+				48F6F07424D4C23F000B96DD /* Main.storyboard */,
 				48F6F06E24D4C23F000B96DD /* AppDelegate.swift */,
 				48F6F07024D4C23F000B96DD /* SceneDelegate.swift */,
 				48F6F07224D4C23F000B96DD /* ViewController.swift */,
-				48F6F07424D4C23F000B96DD /* Main.storyboard */,
 				48F6F07724D4C241000B96DD /* Assets.xcassets */,
 				48F6F07924D4C241000B96DD /* LaunchScreen.storyboard */,
 				48F6F07C24D4C241000B96DD /* Info.plist */,
@@ -237,6 +240,7 @@
 			files = (
 				48F6F07B24D4C241000B96DD /* LaunchScreen.storyboard in Resources */,
 				48F6F07824D4C241000B96DD /* Assets.xcassets in Resources */,
+				48F65DF824D50FBD008E65B0 /* Launch Screen.storyboard in Resources */,
 				48F6F07624D4C23F000B96DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

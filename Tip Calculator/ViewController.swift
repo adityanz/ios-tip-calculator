@@ -14,10 +14,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var billAmountTextField: UITextField!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Tip Calculator"
+        let tip = 0
+        
+        let total = 0
+        
+        tipPercentageLabel.text = String(format: "$%.2f", tip)
+        
+        totalLabel.text = String(format: "$%.2f", total)
+        
         // Do any additional setup after loading the view.
     }
 

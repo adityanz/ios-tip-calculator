@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipPercentageLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var billAmountTextField: UITextField!
-
+    @IBOutlet weak var tipMessage: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,10 +29,13 @@ class ViewController: UIViewController {
         
         totalLabel.text = String(format: "$%.2f", total)
         
+        tipMessage.text = "Thanks for using my app!"
+        
         // Do any additional setup after loading the view.
     }
 
     @IBAction func onTap(_ sender: Any) {
+        
     }
     @IBAction func calculateTip(_ sender: Any) {
         // This allows us to get the inital bill amount and calculate the tips
@@ -44,8 +48,27 @@ class ViewController: UIViewController {
         let total = bill + tip
         
         tipPercentageLabel.text = String(format: "$%.2f", tip)
-        
         totalLabel.text = String(format: "$%.2f", total)
+        
+        let val = tipControl.selectedSegmentIndex
+        if (val == 0)
+        {
+            tipMessage.text = "Good tip 😃"
+        }
+        
+        else if (val == 1)
+        {
+            tipMessage.text = "Great tip 💵"
+        }
+        
+        else if (val == 2)
+        {
+            tipMessage.text = "Looks like you really enjoyed 💰"
+        }
+        else
+        {
+            tipMessage.text = "Tipping supports people!"
+        }
     }
     
 }

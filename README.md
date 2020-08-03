@@ -31,9 +31,9 @@ I also added a launch screen and a logo and based the colors of the app on my cu
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/DcFXnVF2WR.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Recordit](http://recordit.co/DcFXnVF2WR).
+GIF created with [Recordit](http://recordit.co/).
 
 ## Notes
 

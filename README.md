@@ -4,13 +4,13 @@
 
 Submitted by: **Aditya Dixit**
 
-Time spent: **6** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [X ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -21,25 +21,29 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] List anything else that you can get done to improve the app functionality!
+
+I ended up adding a small message based on the percentage selected to give a nice feedback for the tip being provided.
+
+I also added a launch screen and a logo and based the colors of the app on my current university. 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](http://recordit.co/DcFXnVF2WR).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
-This was the first time for me that I was develping in iOS and really the biggest challenge I had was trying to understand how the whole interface worked while at the same time trying to see what is going wrong and debugging. 
+This was the first time for me that I was develping in iOS and really the biggest challenge I had was trying to understand how the whole interface worked while at the same time trying to see what is going wrong and debugging. I had to figure outt the new syntax, like referring to the data in the objects, and also understanding how view did load works and how the variable linkage to the storyboard happens. Overall, I think I really enjoyed my iOS experience and I cannot wait to learn more. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Aditya Dixit]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -52,3 +56,4 @@ This was the first time for me that I was develping in iOS and really the bigges
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+## External

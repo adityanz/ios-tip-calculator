@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48318C5324D78C0800E8864F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48318C5224D78C0800E8864F /* Images.xcassets */; };
 		483F292924D4E4750083D5D7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F292824D4E4750083D5D7 /* SettingsViewController.swift */; };
 		48F65DF824D50FBD008E65B0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F65DF724D50FBD008E65B0 /* Launch Screen.storyboard */; };
 		48F6F06F24D4C23F000B96DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6F06E24D4C23F000B96DD /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48318C5224D78C0800E8864F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		483F292824D4E4750083D5D7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		48F65DF724D50FBD008E65B0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		48F6F06B24D4C23F000B96DD /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				48F6F07724D4C241000B96DD /* Assets.xcassets */,
 				48F6F07924D4C241000B96DD /* LaunchScreen.storyboard */,
 				48F6F07C24D4C241000B96DD /* Info.plist */,
+				48318C5224D78C0800E8864F /* Images.xcassets */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F6F07B24D4C241000B96DD /* LaunchScreen.storyboard in Resources */,
+				48318C5324D78C0800E8864F /* Images.xcassets in Resources */,
 				48F6F07824D4C241000B96DD /* Assets.xcassets in Resources */,
 				48F65DF824D50FBD008E65B0 /* Launch Screen.storyboard in Resources */,
 				48F6F07624D4C23F000B96DD /* Main.storyboard in Resources */,
@@ -441,6 +445,7 @@
 		48F6F09624D4C241000B96DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +462,7 @@
 		48F6F09724D4C241000B96DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

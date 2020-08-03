@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         
         else if (val == 2)
         {
-            tipMessage.text = "Looks like you really enjoyed 💰"
+            tipMessage.text = "Amazing tip 💰"
         }
         else
         {
